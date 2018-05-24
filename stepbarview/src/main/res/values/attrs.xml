@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepBarView">
+        <attr name="step_tv_color" format="color"/>
+        <attr name="step_tv_size" format="dimension"/>
+        <attr name="step_padding" format="dimension"/>
+        <attr name="step_circle_color_checked" format="color"/>
+        <attr name="step_circle_color_unchecked" format="color"/>
+        <attr name="step_line_color" format="color"/>
+        <attr name="step_number_color_checked" format="color"/>
+        <attr name="step_number_color_unchecked" format="color"/>
+        <attr name="step_edge_line_width" format="dimension"/>
+        <attr name="step_center_line_width" format="dimension"/>
+        <attr name="step_circle_radius" format="dimension"/>
+        <attr name="step_top_name" format="reference"/>
+        <attr name="step_bottom_name" format="reference"/>
+        <attr name="step_check_number" format="integer"/>
+    </declare-styleable>
+</resources>

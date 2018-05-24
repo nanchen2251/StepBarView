@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StepBar</string>
+
+    <string-array name="bottomNames">
+        <item>送货</item>
+        <item>验货</item>
+        <item>收货</item>
+    </string-array>
+
+    <string-array name="topNames">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+</resources>
