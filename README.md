@@ -1,5 +1,7 @@
 # StepBarView
 一款流程步骤进度条
+提供了上面两种方式的 Style，纯粹的练手项目，对 Maven 支持还没有支持到 Java 代码设置，感兴趣的建议下载查看 Demo，非常简单，注释齐全。
+**必须设置显示的文字数据，不设置肯定会崩溃，由于时间关系和 UI 的丑陋性，这里就不优化啦，啦啦啦**
 
 ## 效果图<br>
 ![](https://github.com/nanchen2251/StepBarView/blob/master/screen/screen.jpg)
@@ -22,7 +24,7 @@ allprojects {
 ##### Step 2. Add the dependency
 ```java
 dependencies {
-	        implementation 'com.github.nanchen2251:StepBarView:1.0.1'
+	        implementation 'com.github.nanchen2251:StepBarView:1.1.0'
 
 	}
 ```
@@ -36,6 +38,14 @@ dependencies {
         app:step_bottom_name="@array/bottomNames"
         app:step_check_number="1"
         app:step_top_name="@array/topNames"/>
+	
+	
+<com.nanchen.stepbarview.StepView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        app:check_num="2"
+        app:step_names="@array/stepNames"/>
 ```
 
 ### 关于作者
