@@ -4,7 +4,7 @@
 **必须设置显示的文字数据，不设置肯定会崩溃，由于时间关系和 UI 的丑陋性，这里就不优化啦，啦啦啦**
 
 ## 效果图<br>
-![](https://github.com/nanchen2251/StepBarView/blob/master/screen/screen.jpg)
+![](https://github.com/nanchen2251/StepBarView/blob/master/screen/screen_hot.jpg)
 
 #### ⊙开源不易，希望给个star或者fork奖励
 #### ⊙拥抱开源：https://github.com/nanchen2251/
