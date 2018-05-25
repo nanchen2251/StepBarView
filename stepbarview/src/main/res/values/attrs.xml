@@ -16,4 +16,16 @@
         <attr name="step_bottom_name" format="reference"/>
         <attr name="step_check_number" format="integer"/>
     </declare-styleable>
+
+    <declare-styleable name="StepView">
+        <attr name="tv_color_checked" format="color"/>
+        <attr name="tv_color_unchecked" format="color"/>
+        <attr name="bg_color_checked" format="color"/>
+        <attr name="bg_color_unchecked" format="color"/>
+        <attr name="step_names" format="reference"/>
+        <attr name="step_view_padding" format="dimension"/>
+        <attr name="step_width" format="dimension"/>
+        <attr name="step_height" format="dimension"/>
+        <attr name="check_num" format="integer"/>
+    </declare-styleable>
 </resources>
